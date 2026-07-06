@@ -1,9 +1,14 @@
-import { useState } from 'react'
+import { useState } from 'react' 
+import { Routes, Route } from 'react-router-dom'
+import Home from "./pages/Home"
 
 function App() {
 
   return (
-    <h1>Studio Inglethe Nails</h1>
+    <Routes>
+       <Route path="/" element={<Home />} />
+    </Routes>
+    
   )
 }
 
