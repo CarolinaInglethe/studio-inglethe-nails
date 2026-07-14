@@ -1,9 +1,10 @@
+import Header from "../components/Header"
+
 function Home(){
     return (
-        <div>
-            <h1>Studio Inglethe Nails</h1>
-            <p>Home</p>
-        </div>
+        <>
+            <Header/>
+        </>
         
     )
 }
