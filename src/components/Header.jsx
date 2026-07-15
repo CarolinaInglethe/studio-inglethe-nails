@@ -1,6 +1,7 @@
 import logo from "../assets/logo/logo.png";
 import {Link} from "react-router-dom"
 import { FiMenu } from "react-icons/fi";
+import "../styles/header.css"
 
 function Header() {
     return (
@@ -13,12 +14,13 @@ function Header() {
              alt="Logo do Estudio Ingleteh Nails, texo vinho bordo e coração coreano destacando unhas." />   
          </Link>
          
-         
-         <button className="header-fiMenu" type="button" aria-label="Abrir menu">
-           <FiMenu />
-         </button>
 
          <nav className="header-nav">
+
+          <button className="header-fiMenu" type="button" aria-label="Abrir menu">
+           <FiMenu />
+         </button>
+         
           <ul>
             <li>
               <Link to="/">Inicio</Link>
