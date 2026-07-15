@@ -7,20 +7,20 @@ function Header() {
     return (
       <header className="header">
 
-         <Link to="/">
+         <div className="header-top">
+          <Link to="/">
            <img 
              className="header-logo" 
              src={logo} 
              alt="Logo do Estudio Ingleteh Nails, texo vinho bordo e coração coreano destacando unhas." />   
-         </Link>
-         
-
-         <nav className="header-nav">
+          </Link>
 
           <button className="header-fiMenu" type="button" aria-label="Abrir menu">
            <FiMenu />
-         </button>
-         
+          </button>
+         </div>
+
+         <nav className="header-nav">
           <ul>
             <li>
               <Link to="/">Inicio</Link>
