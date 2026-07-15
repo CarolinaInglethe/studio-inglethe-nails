@@ -7,15 +7,18 @@ function Header() {
       <header className="header">
 
          <Link to="/">
-           <img className="header-logo" src={logo} alt="Logo do Estudio Ingleteh Nails, texo vinho bordo e coração coreano destacando unhas." />   
+           <img 
+             className="header-logo" 
+             src={logo} 
+             alt="Logo do Estudio Ingleteh Nails, texo vinho bordo e coração coreano destacando unhas." />   
          </Link>
          
          
-         <button type="button" aria-label="Abrir menu">
+         <button className="header-fiMenu" type="button" aria-label="Abrir menu">
            <FiMenu />
          </button>
 
-         <nav>
+         <nav className="header-nav">
           <ul>
             <li>
               <Link to="/">Inicio</Link>
@@ -33,7 +36,14 @@ function Header() {
               <Link to="/contact">Contato</Link>
             </li>
           </ul>
-          <button>Agendar horário</button>
+
+          <a href="https://w.app/ib9hhs" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             className="button-primary"
+          >
+              Agendar horário
+          </a>
          </nav>
                
       </header>
