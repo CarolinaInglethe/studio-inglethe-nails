@@ -3,7 +3,7 @@
     justify-content: space-between;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 360px) {
     .header-logo {
     max-width: 200px;
     margin: 0 auto;
