@@ -1,8 +1,8 @@
 import logo from "../assets/logo/logo.png";
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 import { useState } from "react";
 import { FiMenu, FiX, FiChevronRight } from "react-icons/fi";
-import "../styles/header.css"
+import "../styles/header.css";
 
 function Header() {
   const [ menuOpen, setMenuOpen ] = useState(false);
