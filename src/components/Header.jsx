@@ -44,29 +44,35 @@ function Header() {
 
          {
            menuOpen && (
-            <nav className="header-nav">
-          <ul>
+         <nav className="header-nav">
+          <ul className="menu-links">
             <li>
               <Link to="/">Inicio</Link>
+              <FiChevronRight/>
             </li>
             <li>
               <Link to="/about">Sobre</Link>
+              <FiChevronRight/>
             </li>
             <li>
               <Link to="/services">Serviços</Link>
+              <FiChevronRight/>
             </li>
             <li>
               <Link to="/gallery">Galeria</Link>
+              <FiChevronRight/>
             </li>
             <li>
               <Link to="/contact">Contato</Link>
+              <FiChevronRight/>
             </li>
           </ul>
 
-          <a href="https://w.app/ib9hhs" 
-             target="_blank" 
-             rel="noopener noreferrer"
-             className="button-primary"
+          <a 
+            href="https://w.app/ib9hhs" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="cta-button"
           >
               Agendar horário
           </a>

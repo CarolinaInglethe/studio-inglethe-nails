@@ -25,6 +25,21 @@
     color: #651821;
 }
 
+.menu-links {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-links a {
+    color: #651821;
+    text-decoration: none;
+}
+
+.cta-button {
+    color: #651821;
+    text-decoration: none;
+}
+
 
 @media (min-width: 768px) {
     
