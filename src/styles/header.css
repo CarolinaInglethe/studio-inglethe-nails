@@ -5,13 +5,24 @@
 }
 
 .header-logo {
-    max-width: 200px;
+    max-width: 240px;
     margin: 0 auto;
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
+}
+
+.header-button-icon {
+    background: transparent;
+    border: none;
+    padding: 8px;
+}
+
+.header-icon {
+    font-size: 2rem;
+    color: #651821;
 }
 
 

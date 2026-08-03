@@ -21,7 +21,7 @@ function Header() {
           {
             !menuOpen ? 
             <button 
-             className="header-fiMenu"
+             className="header-button-icon"
              type="button" 
              aria-label="Abrir menu"
              onClick={() => setMenuOpen(true)
@@ -30,7 +30,7 @@ function Header() {
               <FiMenu className="header-icon"/>
             </button> :
             <button 
-             className="header-fiMenu" 
+             className="header-button-icon" 
              type="button" 
              aria-label="Abrir menu"
              onClick={() => setMenuOpen(false)}
