@@ -1,9 +1,12 @@
 import logo from "../assets/logo/logo.png";
 import {Link} from "react-router-dom"
-import { FiMenu } from "react-icons/fi";
+import { useState } from "react";
+import { FiMenu, FiX, FiChevronRight } from "react-icons/fi";
 import "../styles/header.css"
 
 function Header() {
+  const [ menuOpen, setMenuOpen ] = useState(false);
+
     return (
       <header className="header">
 
@@ -15,12 +18,22 @@ function Header() {
              alt="Logo do Estudio Ingleteh Nails, texo vinho bordo e coração coreano destacando unhas." />   
           </Link>
 
-          <button className="header-fiMenu" type="button" aria-label="Abrir menu">
-           <FiMenu />
-          </button>
+          {
+            !menuOpen ? 
+            <button className="header-fiMenu" type="button" aria-label="Abrir menu">
+              <FiMenu className="header-icon"/>
+            </button> :
+            <button className="header-fiMenu" type="button" aria-label="Abrir menu">
+              <FiX className="header-icon"/>
+            </button>
+          }
+
+          
          </div>
 
-         <nav className="header-nav">
+         {
+           menuOpen && (
+            <nav className="header-nav">
           <ul>
             <li>
               <Link to="/">Inicio</Link>
@@ -47,6 +60,10 @@ function Header() {
               Agendar horário
           </a>
          </nav>
+           )
+         }
+         
+         
                
       </header>
     )
