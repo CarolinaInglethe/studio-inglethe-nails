@@ -1,4 +1,4 @@
-import "../styles/button.css"
+import "./Button.css"
 
 function Button() {
     return (

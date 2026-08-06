@@ -2,7 +2,7 @@ import logo from "../assets/logo/logo.png";
 import {Link} from "react-router-dom";
 import { useState } from "react";
 import { FiMenu, FiX, FiChevronRight } from "react-icons/fi";
-import "../styles/header.css";
+import "./Header.css";
 import Button from "./Button";
 
 function Header() {
