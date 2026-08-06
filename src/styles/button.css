@@ -1,7 +1,14 @@
 .cta-button {
     background-color: #651821;
+    border-radius: 6px;
     color: #FFFFFF;
-    width: 100%;
+    font-size: clamp(1rem, 2.5vw, 1.30rem);
     padding: 14px 24px;
-    font-size: clamp(1rem, 2.5vw, 1.35rem);
+    text-align: center;
+    width: calc(100% - 50px);
+}
+
+
+@media (min-width: 768px) {
+    
 }

@@ -22,8 +22,15 @@
 }
 
 .header-icon {
-    font-size: 3rem;
+    font-size: 2.160rem;
     color: #651821;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    width: 100%;
 }
 
 .menu-links {
@@ -46,7 +53,7 @@
     justify-content: space-between;
     padding: 16px 0;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: clamp(1rem, 2.5vw, 1.30rem)
 }
 
 
