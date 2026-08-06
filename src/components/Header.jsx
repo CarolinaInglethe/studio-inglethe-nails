@@ -47,24 +47,34 @@ function Header() {
          <nav className="header-nav">
           <ul className="menu-links">
             <li>
-              <Link to="/">Inicio</Link>
-              <FiChevronRight/>
+              <Link to="/">
+                <span>Inicio</span>
+                <FiChevronRight/>
+              </Link>
             </li>
             <li>
-              <Link to="/about">Sobre</Link>
-              <FiChevronRight/>
+              <Link to="/about">
+                <span>Sobre</span>
+                <FiChevronRight/>
+              </Link>
             </li>
             <li>
-              <Link to="/services">Serviços</Link>
-              <FiChevronRight/>
+              <Link to="/services">
+                <span>Serviços</span>
+                <FiChevronRight/>
+              </Link>
             </li>
             <li>
-              <Link to="/gallery">Galeria</Link>
-              <FiChevronRight/>
+              <Link to="/gallery">
+                <span>Galeria</span>
+                <FiChevronRight/>
+              </Link>
             </li>
             <li>
-              <Link to="/contact">Contato</Link>
-              <FiChevronRight/>
+              <Link to="/contact">
+                <span>Contato</span>
+                <FiChevronRight/>
+              </Link>
             </li>
           </ul>
 
