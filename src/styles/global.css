@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background-color: #F8F6F3;
+    font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+}
+
+
+@media (min-width: 768px) {
+    
+}
