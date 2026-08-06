@@ -1,3 +1,5 @@
+import "../styles/button.css"
+
 function Button() {
     return (
       <a 
