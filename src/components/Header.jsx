@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import { useState } from "react";
 import { FiMenu, FiX, FiChevronRight } from "react-icons/fi";
 import "../styles/header.css";
+import Button from "./Button";
 
 function Header() {
   const [ menuOpen, setMenuOpen ] = useState(false);
@@ -78,14 +79,8 @@ function Header() {
             </li>
           </ul>
 
-          <a 
-            href="https://w.app/ib9hhs" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="cta-button"
-          >
-              Agendar horário
-          </a>
+          <Button/>
+          
          </nav>
            )
          }
