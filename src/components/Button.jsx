@@ -1,4 +1,4 @@
-import "./ButtonCTA.css"
+import "./Button.css"
 
 function Button() {
     return (
