@@ -11,7 +11,7 @@ function Home(){
                 <h1>Beleza que expressa quem você é</h1>
                 <p>Unhas impecáveis, atendimento personalizado e uma experiência única para realçar sua essência.</p>
                 <div>
-                    <Button />
+                    <Button variant="primary"/>
                 </div>            
             </section>
         </>

@@ -79,7 +79,7 @@ function Header() {
             </li>
           </ul>
 
-          <Button/>
+          <Button variant="primary"/>
           
          </nav>
            )
