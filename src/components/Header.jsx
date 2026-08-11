@@ -79,8 +79,7 @@ function Header() {
             </li>
           </ul>
 
-          <Button variant="primary"/>
-          
+          <Button variant="primary"> Agendar horário </ Button>
          </nav>
            )
          }

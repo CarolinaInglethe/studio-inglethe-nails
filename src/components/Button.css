@@ -9,6 +9,15 @@
     width: calc(100% - 50px);
 }
 
+.cta-button--secundary {
+    color: #651821;
+    font-size: clamp(1rem, 2.5vw, 1.30rem);
+    padding: 14px 24px;
+    text-align: center;
+    text-decoration: none;
+    width: calc(100% - 50px);
+}
+
 
 @media (min-width: 768px) {
     
