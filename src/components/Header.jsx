@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import { useState } from "react";
 import { FiMenu, FiX, FiChevronRight } from "react-icons/fi";
 import "./Header.css";
-import Button from "./Button";
+import ButtonCTA from "./ButtonCTA";
 
 function Header() {
   const [ menuOpen, setMenuOpen ] = useState(false);
@@ -79,7 +79,7 @@ function Header() {
             </li>
           </ul>
 
-          <Button/>
+          <ButtonCTA/>
           
          </nav>
            )
