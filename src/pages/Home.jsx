@@ -22,7 +22,7 @@ function Home(){
                 
                    <div className="section-buttons">
                      <Button variant="primary" element="a">Agendar horário</Button>
-                     <Button variant="secundary" element="Link">Nossos serviços  →</Button>
+                     <Button variant="secondary" element="Link">Nossos serviços  →</Button>
                    </div>   
                 </div>
                           
