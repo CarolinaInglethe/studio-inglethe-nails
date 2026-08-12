@@ -1,8 +1,23 @@
 .home-hero-section {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    background-color: #eee6dd63;
+    background-color: #eee6ddee;
+    gap: 1.5rem;
+    width: 100%;
+    margin: 0px;
+}
+
+.home-hero-section img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.25rem;
+    gap: 2rem;
     width: 100%;
     margin: 0px;
 }
@@ -10,6 +25,7 @@
 .section-buttons {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
     width: 70%;
 }
 
