@@ -5,8 +5,8 @@
 }
 
 .header-logo {
-    max-width: 220px;
-    margin: 0 auto;
+    width: 11rem;
+    height: auto;
 }
 
 .header-top {
