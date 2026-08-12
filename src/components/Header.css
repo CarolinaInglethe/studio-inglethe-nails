@@ -28,21 +28,22 @@
 .header-nav {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
     padding-bottom: 20px;
     width: 100%;
 }
 
 .menu-links {
     list-style: none;
-    padding: 0;
+    padding: 6px;
 }
 
 .menu-links li {
-    border-bottom: 1px solid #65182165;
+    border-bottom: 1px solid #65182175;
 }
 
 .menu-links li:active {
-    border-bottom: 1px solid #651821cb;
+    border-bottom: 1px solid #57171e;
 }
 
 .menu-links a {
@@ -54,6 +55,7 @@
     text-decoration: none;
     font-size: clamp(1rem, 2.5vw, 1.30rem)
 }
+
 
 
 @media (min-width: 768px) {

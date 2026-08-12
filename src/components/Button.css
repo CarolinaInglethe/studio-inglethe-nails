@@ -9,6 +9,10 @@
     width: calc(100% - 5px);
 }
 
+.cta-button--primary :active {
+    background-color: #65182173;
+}
+
 .cta-button--secundary {
     color: #651821;
     font-size: clamp(1rem, 2.5vw, 1.30rem);
@@ -16,6 +20,10 @@
     text-align: center;
     text-decoration: none;
     width: calc(100% - 5px);
+}
+
+.cta-button--secundary {
+    color: #421218;
 }
 
 
