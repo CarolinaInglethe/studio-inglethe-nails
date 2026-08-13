@@ -32,25 +32,34 @@ function Home(){
             </section>
               
             <section className="home-section-benefits">
-                <div>
+                <div className="benefits-card">
                     <img src={ICONPERFIL} alt="Icone perfil de uma pessoa traços cor dourado" />
-                    <h3>Atendimento Personalizado</h3>
-                    <p>Cada detalhe feito especialmente para você</p>
+                    <div>
+                       <h3>Atendimento Personalizado</h3>
+                       <p>Cada detalhe feito especialmente para você</p>
+                    </div>
                 </div>
-                <div>
+                <div className="benefits-card"> 
                     <img src={ICONDOMICILIO} alt="Icone de uma casinha com traços criativos e elegante cor dourada" />
-                    <h3>Atendimento a Domicílio</h3>
-                    <p>Atendemos também no conforto de sua casa</p>
+                    <div>
+                       <h3>Atendimento a Domicílio</h3>
+                       <p>Atendemos também no conforto de sua casa</p>
+                    </div>
                 </div>
-                <div>
+                <div className="benefits-card">
                     <img src={ICONPREMIUM} alt="Icone de um diamante com traços finos e dourado" />
-                    <h3>Materiais Premium</h3>
-                    <p>Produts de alta qualidade para sua segurança e conforto</p>
+                    <div>
+                       <h3>Materiais Premium</h3>
+                       <p>Produts de alta qualidade para sua segurança e conforto</p>
+                    </div>                   
                 </div>
-                <div>
+                <div className="benefits-card">
                     <img src={ICONAMBIENTE} alt="Icone de um sofa , traços finos delicados e dourado" />
-                    <h3>Ambiente Acolhedor</h3>
-                    <p>Espaço pensado para proporcionar bem-estar e relaxamento</p>
+                    <div>
+                       <h3>Ambiente Acolhedor</h3>
+                       <p>Espaço pensado para proporcionar bem-estar e relaxamento</p>
+                    </div>
+                   
                 </div>
             </section>
         </>

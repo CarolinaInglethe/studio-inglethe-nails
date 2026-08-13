@@ -29,8 +29,15 @@
     width: 70%;
 }
 
+.home-section-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .home-section-benefits img {
     width: 6rem;
+    margin: 10px;
 }
 
 @media (min-width: 768px) {
