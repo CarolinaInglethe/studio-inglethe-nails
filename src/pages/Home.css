@@ -35,9 +35,17 @@
     gap: 1rem;
 }
 
+.benefits-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    width: 90%;
+}
+
 .home-section-benefits img {
-    width: 6rem;
-    margin: 10px;
+    width: 5rem;
+    margin: 5px;
 }
 
 @media (min-width: 768px) {
