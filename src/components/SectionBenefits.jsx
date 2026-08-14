@@ -6,7 +6,7 @@ import ICONAMBIENTE from "../assets/icons/ICON-AMBIENTE.png";
 
 function SectionBenefits() {
     return (
-        <section className="home-section-benefits">
+        <section className="section-benefits">
                 <div className="benefits-card">
                     <img src={ICONPERFIL} alt="Icone perfil de uma pessoa traços cor dourado" />
                     <div>
