@@ -20,6 +20,11 @@ body {
 
 h1, h2, h3 {
     font-family: "Playfair Display", serif;
+    color: #2e2e2ef1
+}
+
+p {
+  color: #666666
 }
 
 

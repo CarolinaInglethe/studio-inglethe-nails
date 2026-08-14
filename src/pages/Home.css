@@ -34,7 +34,7 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 
 .benefits-card {
@@ -42,7 +42,7 @@
     flex-direction: row;
     align-items: center;
     gap: 1rem;
-    width: 90%;
+    width: 85%;
 }
 
 .benefits-card h3 {
@@ -50,7 +50,7 @@
 }
 
 .home-section-benefits img {
-    width: 4rem;
+    width: 3.5rem;
     margin: 5px;
 }
 
