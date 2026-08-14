@@ -35,29 +35,29 @@ function Home(){
                 <div className="benefits-card">
                     <img src={ICONPERFIL} alt="Icone perfil de uma pessoa traços cor dourado" />
                     <div>
-                       <h3>Atendimento Personalizado</h3>
-                       <p>Cada detalhe feito especialmente para você</p>
+                       <h3>Atendimento <br/>Personalizado</h3>
+                       <p>Cada detalhe feito <br/>especialmente para você</p>
                     </div>
                 </div>
                 <div className="benefits-card"> 
                     <img src={ICONDOMICILIO} alt="Icone de uma casinha com traços criativos e elegante cor dourada" />
                     <div>
-                       <h3>Atendimento a Domicílio</h3>
-                       <p>Atendemos também no conforto de sua casa</p>
+                       <h3>Atendimento <br/> a Domicílio</h3>
+                       <p>Atendemos também <br/>no conforto de sua casa</p>
                     </div>
                 </div>
                 <div className="benefits-card">
                     <img src={ICONPREMIUM} alt="Icone de um diamante com traços finos e dourado" />
                     <div>
-                       <h3>Materiais Premium</h3>
-                       <p>Produts de alta qualidade para sua segurança e conforto</p>
+                       <h3>Materiais <br/>Premium</h3>
+                       <p>Produtos de alta qualidade <br/> para sua segurança e conforto</p>
                     </div>                   
                 </div>
                 <div className="benefits-card">
                     <img src={ICONAMBIENTE} alt="Icone de um sofa , traços finos delicados e dourado" />
                     <div>
-                       <h3>Ambiente Acolhedor</h3>
-                       <p>Espaço pensado para proporcionar bem-estar e relaxamento</p>
+                       <h3>Ambiente <br/>Acolhedor</h3>
+                       <p>Espaço pensado <br/>para proporcionar bem-estar e relaxamento</p>
                     </div>
                    
                 </div>
