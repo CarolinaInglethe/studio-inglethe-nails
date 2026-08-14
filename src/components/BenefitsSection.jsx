@@ -1,10 +1,10 @@
-import "./SectionBenefits.css"
+import "./BenefitsSection.css"
 import ICONPERFIL from "../assets/icons/ICON-PERFIL.png";
 import ICONDOMICILIO from "../assets/icons/ICON-DOMICILIO.png";
 import ICONPREMIUM from "../assets/icons/ICON-PREMIUM.png";
 import ICONAMBIENTE from "../assets/icons/ICON-AMBIENTE.png";
 
-function SectionBenefits() {
+function BenefitsSection() {
     return (
         <section className="section-benefits">
                 <div className="benefits-card">
@@ -40,4 +40,4 @@ function SectionBenefits() {
     )
 }
 
-export default SectionBenefits;
+export default BenefitsSection;

@@ -1,6 +1,6 @@
 import Header from "../components/Header"
 import Button from "../components/Button"
-import SectionBenefits from "../components/SectionBenefits"
+import BenefitsSection from "../components/BenefitsSection"
 import IMG from "../assets/images/IMG-HERO-SECTION.PNG"
 import "./Home.css"
 
@@ -27,7 +27,7 @@ function Home(){
                 </div>
             </section>
               
-            <SectionBenefits />
+            <BenefitsSection />
         </>
     )
 }
