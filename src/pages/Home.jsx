@@ -1,7 +1,6 @@
 import Header from "../components/Header"
 import Button from "../components/Button"
 import "./Home.css"
-import { useState } from "react"
 import IMG from "../assets/images/IMG-HERO-SECTION.PNG"
 import ICONPERFIL from "../assets/icons/ICON-PERFIL.png";
 import ICONDOMICILIO from "../assets/icons/ICON-DOMICILIO.png";
@@ -50,14 +49,14 @@ function Home(){
                     <img src={ICONPREMIUM} alt="Icone de um diamante com traços finos e dourado" />
                     <div>
                        <h3>Materiais <br/>Premium</h3>
-                       <p>Produtos de alta qualidade <br/> para sua segurança e conforto</p>
+                       <p>Produtos de alta qualidade  para sua segurança e conforto</p>
                     </div>                   
                 </div>
                 <div className="benefits-card">
                     <img src={ICONAMBIENTE} alt="Icone de um sofa , traços finos delicados e dourado" />
                     <div>
                        <h3>Ambiente <br/>Acolhedor</h3>
-                       <p>Espaço pensado <br/>para proporcionar bem-estar e relaxamento</p>
+                       <p>Espaço pensado para proporcionar bem-estar e relaxamento</p>
                     </div>
                    
                 </div>
