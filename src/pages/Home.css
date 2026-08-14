@@ -50,7 +50,10 @@
 }
 
 .home-section-benefits img {
-    width: 3.5rem;
+    border: 1px solid #C8A56A;
+    border-radius: 16px;
+    width: 4rem;
+    padding: 5px;
     margin: 5px;
 }
 
