@@ -16,7 +16,8 @@
 .cta-button--secondary {
     color: #651821;
     font-size: clamp(1rem, 2.5vw, 1.30rem);
-    padding: 14px 24px;
+    font-weight: 600;
+    padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     width: calc(100% - 5px);
