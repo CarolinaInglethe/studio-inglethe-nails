@@ -5,6 +5,10 @@
     padding: 40px;
 }
 
+.preview-services-card {
+    display: flex;
+}
+
 .preview-services-section img {
     border-radius: 2px;
     width: 8rem;
