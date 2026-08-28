@@ -1,0 +1,11 @@
+.preview-services-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 40px;
+}
+
+.preview-services-section img {
+    border-radius: 2px;
+    width: 8rem;
+}
