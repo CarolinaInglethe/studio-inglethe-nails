@@ -1,8 +1,8 @@
 .preview-services-section {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    padding: 35px;
+    gap: 3rem;
+    padding: 25px 35px;
 }
 
 .preview-services-card {
@@ -14,10 +14,21 @@
 .preview-services-card div {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
+}
+
+.preview-services-card a {
+    color: #651821;
+    font-size: clamp(1rem, 2.5vw, 1.30rem);
+    text-decoration: none;
+}
+
+.preview-services-card a:active {
+    color: #651821b2;
 }
 
 .preview-services-section img {
     border-radius: 2px;
     width: 8rem;
 }
+
