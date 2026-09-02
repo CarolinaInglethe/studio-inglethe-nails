@@ -19,3 +19,8 @@
 .gallery-preview-imgs img {
     width: 160px;
 }
+
+
+@media (min-width: 768px) {
+    
+}
