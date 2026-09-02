@@ -1,7 +1,7 @@
 import Header from "../components/Header"
 import Button from "../components/Button"
 import BenefitsSection from "../components/BenefitsSection"
-import PreviewServicesSection from "../components/PreviewSevicesSection"
+import PreviewServices from "../components/PreviewSevices"
 import IMG from "../assets/images/IMG-HERO-SECTION.PNG"
 import "./Home.css"
 
@@ -29,7 +29,7 @@ function Home(){
             </section>
               
             <BenefitsSection />
-            <PreviewServicesSection />
+            <PreviewServices />
         </>
     )
 }
