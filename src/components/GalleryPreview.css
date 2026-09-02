@@ -4,7 +4,7 @@
     gap: 3rem;
     align-items: center;
     padding: 35px 19px;
-    border-top: 1px solid rgba(0, 0, 0, 0.151);
+    border-top: 1px solid #dfd2c3;
 }
 
 .gallery-preview-imgs {

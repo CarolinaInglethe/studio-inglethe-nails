@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 3rem;
     padding: 35px 35px;
-    border-top: 1px solid rgba(0, 0, 0, 0.151);
+    border-top: 1px solid #dfd2c3;
     align-items: center;
 }
 
