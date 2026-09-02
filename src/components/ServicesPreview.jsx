@@ -3,9 +3,9 @@ import Button from './Button';
 import IMGM from "../assets/images/IMG_8830.PNG"
 import IMGP from "../assets/images/IMG_8860.PNG"
 import IMGS from "../assets/images/IMG_8870.PNG"
-import "./PreviewServices.css"
+import "./ServicesPreview.css"
 
-function PreviewServices() {
+function ServicesPreview() {
     return (
         <section className="preview-services-section">
             <h2>Nossos Serviços</h2>
@@ -36,4 +36,4 @@ function PreviewServices() {
     )
 }
 
-export default PreviewServices;
+export default ServicesPreview;
