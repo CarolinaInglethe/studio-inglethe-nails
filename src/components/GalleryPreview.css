@@ -1,0 +1,17 @@
+.gallery-preview-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.gallery-preview-imgs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+   
+}
+
+.gallery-preview-imgs img {
+    width: 150px;
+}
