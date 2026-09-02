@@ -2,6 +2,7 @@ import Header from "../components/Header"
 import Button from "../components/Button"
 import BenefitsSection from "../components/BenefitsSection"
 import ServicesPreview from "../components/ServicesPreview"
+import GalleryPreview from "../components/GalleryPreview"
 import IMG from "../assets/images/IMG-HERO-SECTION.PNG"
 import "./Home.css"
 
@@ -30,6 +31,7 @@ function Home(){
               
             <BenefitsSection />
             <ServicesPreview />
+            <GalleryPreview />
         </>
     )
 }
