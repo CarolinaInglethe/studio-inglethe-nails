@@ -1,9 +1,9 @@
 .gallery-preview-section {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
     align-items: center;
-    padding: 35px 15px;
+    padding: 35px 19px;
     border-top: 1px solid rgba(0, 0, 0, 0.151);
 }
 
@@ -17,5 +17,5 @@
 }
 
 .gallery-preview-imgs img {
-    width: 180px;
+    width: 160px;
 }
