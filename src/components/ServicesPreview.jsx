@@ -7,23 +7,23 @@ import "./ServicesPreview.css"
 
 function ServicesPreview() {
     return (
-        <section className="preview-services-section">
+        <section className="services-preview-section">
             <h2>Nossos Serviços</h2>
-            <div className="preview-services-card">
+            <div className="services-preview-card">
                 <img src={IMGM}  alt="Imagem de uma mao segurando esmalte azul da dailus com foco nas unhas pintadas" />
                 <div>
                    <h3>Manicure <br/>Perfeita</h3>
                    <Link to="/services">Saiba mais →</Link>
                 </div>
             </div>
-            <div className="preview-services-card">
+            <div className="services-preview-card">
                 <img src={IMGP}  alt="Imagem de pès com destaque nas unhas cutiladas e esmaltadas com francesinha" />
                 <div>
                    <h3>Pedicure + <br/>Esfoliação</h3>
                    <Link to="/services">Saiba mais →</Link>
                 </div>
             </div>
-            <div className="preview-services-card">
+            <div className="services-preview-card">
                 <img src={IMGS}  alt="Imagem de um pé e um balse de agua" />
                 <div>
                    <h3>Spa dos <br/>pés</h3>

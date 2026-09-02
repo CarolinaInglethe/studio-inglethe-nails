@@ -1,33 +1,33 @@
-.preview-services-section {
+.services-preview-section {
     display: flex;
     flex-direction: column;
     gap: 3rem;
     padding: 25px 35px;
 }
 
-.preview-services-card {
+.services-preview-card {
     display: flex;
     gap: 1rem;
     width: 100%;
 }
 
-.preview-services-card div {
+.services-preview-card div {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.preview-services-card a {
+.services-preview-card a {
     color: #651821;
     font-size: clamp(1rem, 2.5vw, 1.30rem);
     text-decoration: none;
 }
 
-.preview-services-card a:active {
+.services-preview-card a:active {
     color: #651821b2;
 }
 
-.preview-services-section img {
+.services-preview-section img {
     border-radius: 2px;
     width: 9rem;
 }
