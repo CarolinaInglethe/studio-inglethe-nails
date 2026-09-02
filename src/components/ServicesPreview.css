@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    padding: 25px 35px;
+    padding: 35px 35px;
     border-top: 1px solid rgba(0, 0, 0, 0.151);
+    align-items: center;
 }
 
 .services-preview-card {
