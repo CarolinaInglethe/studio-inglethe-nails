@@ -1,0 +1,26 @@
+.gallery-preview-section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    padding: 35px 19px;
+    border-top: 1px solid #dfd2c3;
+}
+
+.gallery-preview-imgs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+    align-items: center;
+}
+
+.gallery-preview-imgs img {
+    width: 160px;
+}
+
+
+@media (min-width: 768px) {
+    
+}
